@@ -13,7 +13,7 @@
  
 	if($user){
 		$_SESSION['login'] = $login;
-		$_SESSION['senha'] = $senha;
+		//$_SESSION['senha'] = $senha;
 		$_SESSION['user'] = $user->id; 		
 		header('location:tarefa.php');
 	}
